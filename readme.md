@@ -1,7 +1,6 @@
 # Tic Tac Toe CLI: Dynamic Python Edition
 
 ![Tic Tac Toe Banner](tictactoe.png)  
-*(Optional: Add ASCII art or a terminal screenshot here for flair.)*
 
 A fully playable, extensible command-line Tic Tac Toe game built in pure Python. Supports 1-player mode against a random AI with quirky names (e.g., "Byte-Sized Bandit, the Diagonal Daredevil") and 2-player mode. Features dynamic board sizes (default 3x3, scalable to 4x4+), real-time updates, win/draw detection, replay loops, and smooth exits. Designed for fun, learning, and easy tweaks.
 
@@ -46,12 +45,6 @@ Example mid-game:
 3   ||   ||   
 ```
 *(AI just picked "B2" after your "A1".)*
-
-## Screenshots
-![Mid-Game Board](screenshots/mid-game.png)  
-![Win Screen](screenshots/win.png)  
-![Replay Prompt](screenshots/replay.png)  
-*(Add your terminal captures here.)*
 
 ## Tech Highlights
 - **Dynamic Generation:** `generate_wins` uses list comprehensions for scalable combos.
